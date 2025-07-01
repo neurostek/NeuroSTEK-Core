@@ -1,2 +1,3 @@
 # NeuroSTEK-Core
-Source of NeuroStek project 
+
+Стартовая структура проекта NeuroSTEK.

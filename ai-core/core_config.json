@@ -1,0 +1,25 @@
+{
+  "personality": "hybrid",
+  "default_language": "ru",
+  "supported_languages": ["ru", "kk", "kk-lat", "en", "tr"],
+  "developer_mode": {
+    "enabled": true,
+    "login": "JameenN",
+    "password": "AfqhjyAfqh1891"
+  },
+  "content_filtering": {
+    "enabled": false,
+    "log_blocked_queries": true
+  },
+  "response_control": {
+    "grammatical_safety": true,
+    "tone_matching_user": true,
+    "adaptive_gender_response": true,
+    "age_adaptation": true
+  },
+  "self_learning": {
+    "enabled": true,
+    "log_training": true,
+    "rollback_supported": true
+  }
+}

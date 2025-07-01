@@ -1,0 +1,6 @@
+{
+  "philosophers": ["Abai Qunanbaiuly", "Socrates", "Omar Khayyam"],
+  "investors": ["Warren Buffett", "Robert Kiyosaki", "Benjamin Graham", "Margulan Seisembai"],
+  "scientists": ["Einstein", "Feynman", "Tesla", "Stephen Hawking"],
+  "business_masters": ["Sun Tzu", "Confucius", "Margulan Seisembai"]
+}

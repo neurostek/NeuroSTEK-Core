@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>NeuroSTEK Login</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 flex flex-col items-center justify-center min-h-screen">
+
+  <div class="w-full max-w-md bg-white p-6 rounded-xl shadow-lg">
+    <h1 class="text-2xl font-bold mb-4 text-center">Добро пожаловать в NeuroSTEK</h1>
+
+    <!-- Регистрация -->
+    <div class="mb-6">
+      <h2 class="text-xl font-semibold mb-2">Регистрация</h2>
+      <input type="text" id="reg_username" placeholder="Логин" class="input"/>
+      <input type="password" id="reg_password" placeholder="Пароль" class="input"/>
+      <input type="email" id="reg_email" placeholder="Email" class="input"/>
+      <button onclick="register()" class="btn">Зарегистрироваться</button>
+    </div>
+
+    <!-- Вход -->
+    <div>
+      <h2 class="text-xl font-semibold mb-2">Вход</h2>
+      <input type="text" id="login_username" placeholder="Логин" class="input"/>
+      <input type="password" id="login_password" placeholder="Пароль" class="input"/>
+      <button onclick="login()" class="btn">Войти</button>
+    </div>
+
+    <!-- Баланс токенов -->
+    <div id="balanceBlock" class="mt-4 hidden">
+      <p class="text-green-600 text-sm font-semibold">Баланс токенов: <span id="tokenBalance">0</span></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+
+  <style>
+    .input {
+      display: block;
+      width: 100%;
+      margin-bottom: 8px;
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+    .btn {
+      width: 100%;
+      padding: 10px;
+      background-color: #2563eb;
+      color: white;
+      font-weight: bold;
+      border-radius: 6px;
+      margin-top: 6px;
+    }
+  </style>
+
+</body>
+  </html>
